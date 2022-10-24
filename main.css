@@ -11,7 +11,13 @@ h1 {
 
 h2 {
     font-family: 'Roboto', sans-serif;
-    
+    transition(.21,.45,.76,.38)
+}
+
+h2:hover{
+color: rgb(255, 0, 0);
+transition: 1s ease-in-out;
+
 }
 
 b{
@@ -22,7 +28,8 @@ b{
     display: flex;
     
     gap: 1rem;
-    
+    grid-column-start: 4;
+    grid-column-end: 5;    
 }
 
 .volcano{
@@ -30,10 +37,15 @@ b{
         grid-template-columns: 400px 400px 400px;
         padding-left: 400px;
         padding-top: 50px;
-
+        max-width: 600px;
 
       }
 
+
+      @media screen and (max-width: 600px)
+       {
+        grid-template-columns: auto;
+      }
 .volca-grid{
     font-size: 20px;
 }
