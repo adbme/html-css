@@ -1,12 +1,13 @@
-header{
+header {
     background-color: rgb(255, 0, 0);
 }
-h1{
-    color: 	#FFFFFF;
+
+h1 {
+    color: #FFFFFF;
     border-bottom: 1px solid;
     font-family: 'Roboto', sans-serif;
 }
 
-h2{
+h2 {
     font-family: 'Roboto', sans-serif;
 }
