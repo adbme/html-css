@@ -20,16 +20,23 @@ b{
 
 .volcan{
     display: flex;
-
+    
     gap: 1rem;
     
 }
 
 .volcano{
         display: grid;
-        grid-template-columns: auto;
+        grid-template-columns: 400px 400px 400px;
+        padding-left: 400px;
+        padding-top: 50px;
+
 
       }
+
+.volca-grid{
+    font-size: 20px;
+}
 
 
 
