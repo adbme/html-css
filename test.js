@@ -8,7 +8,7 @@ console.log(adil.name)
 
 const t = 0
 
-let ta = [1, 6, 4] 
+let ta = [2, 6, 4] 
 
 
 function average (tableau) {
@@ -23,3 +23,19 @@ function average (tableau) {
 
 
 console.log(average(ta))
+
+let avg_ta = average(ta)
+
+function pass(avg){
+if (avg == 7){
+    console.log("tricher n'est pas boooon !")
+}
+    if (avg < 4) {
+    console.log("ils ont échouéééé")
+}
+else{
+    console.log("bien joué chakal")
+}
+}
+
+pass(avg_ta)
