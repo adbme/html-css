@@ -8,7 +8,7 @@ console.log(adil.name)
 
 const t = 0
 
-let ta = [2, 6, 4] 
+let ta = [6, 10, 4] 
 
 
 function average (tableau) {
@@ -29,6 +29,7 @@ let avg_ta = average(ta)
 function pass(avg){
 if (avg > 6){
     console.log("tricher n'est pas boooon !")
+    return
 }
     if (avg < 4) {
     console.log("ils ont échouéééé")
