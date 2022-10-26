@@ -27,14 +27,14 @@ console.log(average(ta))
 let avg_ta = average(ta)
 
 function pass(avg){
-if (avg == 7){
+if (avg > 6){
     console.log("tricher n'est pas boooon !")
 }
     if (avg < 4) {
     console.log("ils ont échouéééé")
 }
 else{
-    console.log("bien joué chakal")
+    console.log("bien joué mec")
 }
 }
 
