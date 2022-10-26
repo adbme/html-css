@@ -8,7 +8,7 @@ console.log(adil.name)
 
 const t = 0
 
-let ta = [6, 10, 4] 
+let ta = [3, 10, 4] 
 
 
 function average (tableau) {
@@ -35,8 +35,14 @@ if (avg > 6){
     console.log("ils ont échouéééé")
 }
 else{
-    console.log("bien joué mec")
+    console.log("bien joué mec ._.")
 }
 }
 
 pass(avg_ta)
+
+let tab = [5]
+
+tab.push(6)
+console.log(tab.join("-"));
+tab.every(e => e > 4)
