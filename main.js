@@ -7,7 +7,7 @@ toto.addEventListener("click", function() {
     let articles = document.getElementsByTagName("h1")
 
     for (const article of articles){
-    article.style.backgroundColor = "#" + (Math.floor(Math.random() * 2 ** 24)).toString(16).padStart(0, 6)
+    article.style.backgroundColor = "#" +(Math.random()*0xFFFFFF<<0).toString(16);
     }
     
 
